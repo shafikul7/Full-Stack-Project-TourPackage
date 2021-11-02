@@ -1,0 +1,102 @@
+/** @format */
+
+.admin-controls {
+  max-width: fit-content;
+}
+
+.admin-controls .btn {
+  font-size: 14px;
+  line-height: 19px;
+  color: #111111;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.admin-controls .btn img {
+  margin-right: 5px;
+}
+.admin-controls .btn:focus {
+  color: var(--primary);
+}
+
+.admin-content {
+  padding: 23px 18px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.admin-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.admin-content table thead th {
+  background: #f5f6fa;
+}
+.admin-content table th,
+.admin-content table td {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.admin-content table td {
+  padding: 10px 20px;
+}
+.admin-content table th {
+  color: #686868;
+  font-weight: 400;
+}
+.admin-content table td {
+  color: #000;
+  font-weight: 500;
+}
+.admin-content table thead th:first-child {
+  border-radius: 13px 0 0 13px;
+}
+.admin-content table thead th:last-child {
+  border-radius: 0 13px 13px 0;
+}
+
+.admin-content table .btn {
+  padding: 5px;
+  padding-top: 3px;
+}
+
+.admin-add-event .btn {
+  padding: 7px 25px;
+  text-transform: capitalize;
+}
+
+.admin-add-event .admin-content {
+  padding: 34px;
+}
+.admin-add-event label {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #232323;
+}
+.admin-add-event .form-control {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3.33333px;
+  height: 40px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.admin-add-event .form-control::placeholder,
+.admin-add-event .form-control::-webkit-datetime-edit {
+  color: #c9c9c9;
+}
+
+.admin-add-event .form-control::-webkit-datetime-edit-fields-wrapper {
+  color: #585858;
+}
+@media (max-width: 767px) {
+  .admin-content {
+    overflow-x: scroll;
+  }
+}

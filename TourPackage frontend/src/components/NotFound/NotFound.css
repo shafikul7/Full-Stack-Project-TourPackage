@@ -1,0 +1,18 @@
+
+.found{
+    background-color:rgb(237,238,243);
+    text-align: center;
+}
+.notFound{
+   font-size:300px;
+   color:#00AC7A;
+}
+.notFoundSpan{
+   font-size:200px;
+   color: #FF5733;
+}
+.notFoundPage{
+   font-size:60px;
+   color: #FF5733;
+   padding:20px;
+}

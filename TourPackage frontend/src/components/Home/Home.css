@@ -1,0 +1,99 @@
+/** @format */
+a{
+  text-decoration: none;
+}
+/* .vn-home{
+  margin-top:5px !important;
+} */
+.vn-works-search h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.vn-works-search .form-group {
+  display: flex;
+  max-width: 616px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 470px;
+}
+.vn-works-search .form-control {
+  background: #fbfbfb;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.vn-works-search .form-control,
+.vn-works-search .btn {
+  height: 50px;
+}
+
+.vn-works-search .btn {
+  position: absolute;
+  right: 0;
+  border-radius: 0px 8px 8px 0px;
+}
+.vn-works-card {
+  position: relative;
+  margin: 15px 0;
+  border-radius: 12px;
+  transition: 0.4s ease;
+  background-color: rgb(236, 230, 230);
+  /* border-radius:15px 30px 15px 30px; */
+}
+
+.vn-works-card:hover {
+  box-shadow: 0px 5px 20px 5px rgb(63 144 252 / 34%);
+  transform: translateY(-4px);
+}
+.vn-works-card .vn-works-det h4{
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  /* border-radius:0px 0px 15px 15px; */
+}
+.vn-works-card .vn-works-det{
+  color: rgb(12, 12, 12);
+ font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.display-5{
+  color: orange;
+}
+.vn-works-card img {
+  border-radius: 15px 15px 0px 0px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+[class^='col-']:nth-child(2n-1) .vn-works-card h4{
+  background: var(--yellow);
+}
+[class^='col-']:nth-child(2n) .vn-works-card h4{
+  background: var(--orange);
+}
+[class^='col-']:nth-child(3n) .vn-works-card h4 {
+  background: var(--primary);
+}
+[class^='col-']:nth-child(4n) .vn-works-card h4 {
+  background: var(--blue);
+}
+[class^='col-']:nth-child(5n) .vn-works-card h4 {
+  background: var(--orange);
+}
+[class^='col-']:nth-child(6n) .vn-works-card h4 {
+  background: var(--yellow);
+}

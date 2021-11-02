@@ -1,0 +1,122 @@
+.service-time{
+    float: right;
+}
+.footer{
+    position: relative;
+    background-color: rgb(13, 2, 107);
+}
+.footer-logo {
+    margin-bottom: 32px;
+}
+.footer-logo img {
+    max-height: 30px;
+}
+.footer .widget .widget-title { 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+}
+.footer .widget .widget-title:after { 
+    display: block;
+    height: 2px;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50px;
+    background-color: #212222;
+    bottom: -17px;
+}
+.footer .widget ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* first-footer */
+.first-footer{
+    padding: 20px 15px;
+}
+.first-footer .newsletter-form input[type="email"] {
+    padding: 12px 24px;
+    border: none;
+    padding-right: 100px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.first-footer .newsletter-form button[type="submit"] {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 30px 7px;
+    height: 45px;
+    border-radius: 0 2em 2em 0;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.first-footer h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.first-footer .newsletter-form button[type="submit"]:hover,
+.footer .first-footer .newsletter-form button[type="submit"]:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* second-footer */
+.second-footer .row{
+    border-bottom: 1px solid #00AC7A;
+}
+.second-footer .widget-area .widget {
+    padding: 62px 0 62px;
+}
+.second-footer>div>.row .widget-area .widget:not(:first-child) {
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+/** copyright **/
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.copyright-heads{
+    /* background-color:#030303; */
+    background-color: var(--orange);
+}
+.copyright-text{
+    font-size:16px;
+}
+
+.list-inline{
+    display: flex;
+}
+.list-inline .tooltip-top{
+    padding:15px;
+    color:#00AC7A;
+    font-size: 20px;
+} 
+.tooltip-top:hover{
+    color:#f1260b;
+}
+footer{
+    color:white;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+.ttm-textcolor-skincolor{
+    color:orange;
+    font-size: 20px;
+    margin:5px;
+}

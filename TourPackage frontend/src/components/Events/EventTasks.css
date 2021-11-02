@@ -1,0 +1,25 @@
+.vn-task {
+	background: #ffffff;
+	padding: 24px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 2fr 2fr 1fr;
+	grid-gap: 20px;
+	align-items: flex-start;
+	margin: 15px 0;
+}
+
+.vn-task button {
+	align-self: flex-end;
+	background: #e3e3e3;
+	border-radius: 5px;
+	border: none;
+	color: #787878;
+	padding: 13px 38px;
+}
+
+.vn-task img {
+	border-radius: 15px;
+}

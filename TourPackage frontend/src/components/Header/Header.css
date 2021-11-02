@@ -1,0 +1,33 @@
+/** @format */
+.navBg{
+  background-color: var(--orange);
+}
+
+.btn {
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 22px;
+  border-radius: 6px;
+  padding: 13px 44px;
+}
+.btn.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.btn.btn-dark {
+  background: #434141;
+  color: #fff;
+  border-color: #434141;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0b0b0b;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--primary);
+}
+.user img {
+  width: 30%;
+  padding-right: 5px;
+}

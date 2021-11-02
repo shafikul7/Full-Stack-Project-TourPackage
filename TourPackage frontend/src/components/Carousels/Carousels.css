@@ -1,0 +1,15 @@
+
+.carousels-part{
+    height:100vh;
+    
+}
+
+.hs_slider_title{
+    font-size: 60px;
+    color:(--blue);
+}
+.pulse{
+    color:(--primary);
+    font-size: 20px;
+    font-weight: bold;
+}
