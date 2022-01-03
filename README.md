@@ -1,6 +1,6 @@
 # Full-Stack-Project-TourPackage
 
--	Develop an Authenticate Single page web Applications.
+-	Develop an Authenticate Single Page Web Applications.
 -	Users can add to cart Tour Package with their information.
 -	Dashboard for an admin.
 -	Admin is able to add Tour for the website home-page, see all ordered Package of users.
